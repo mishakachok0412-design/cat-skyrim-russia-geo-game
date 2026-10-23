@@ -3,6 +3,8 @@ import react from "@vitejs/plugin-react"
 import { defineConfig } from "vite"
 
 export default defineConfig({
+  base: '/cat-skyrim-russia-geo-game/', 
+  
   plugins: [react(), tailwindcss()],
   server: {
     host: "0.0.0.0",
